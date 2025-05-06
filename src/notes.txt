@@ -1,0 +1,10 @@
+section completed!
+
+1. All codes at the top level of the App component is called Render Logic
+2. Setting state in the render logic is a very bad practice. 
+   Hence don't set state in the render logic as it causes a side effect
+   which is an infirite rendering of the entire App component
+3. A side effect is basically any interaction between a React     component and the world outside the component. we can also think of a side effect as code that actually does something. For example, data fetching, setting up subscriptions, setting up timers, manually accessing the DOM, etc
+
+Tasts:
+1. Change the default page title
