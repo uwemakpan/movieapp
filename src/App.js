@@ -438,7 +438,7 @@ function WatchedMovie({ movie, onDeleteWatched }) {
     <li>
       <img src={movie.poster} alt={`${movie.title} poster`} />
       <h3>{movie.title}</h3>
-      <div>
+      <div className='watched-movies'>
         <p>
           <span>⭐️</span>
           <span>{movie.imdbRating}</span>
